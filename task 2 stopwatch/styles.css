@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: palevioletred;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: red;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#time {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color:purple;
+}
+
+button:active {
+    background-color: blue;
+}
